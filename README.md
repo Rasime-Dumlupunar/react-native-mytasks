@@ -56,4 +56,4 @@ My Tasks is a task management app built with React Native, designed to help user
 - **yup**: Formik ile birlikte kullanılan şema doğrulama kütüphanesi.
 
 
-! [](https://github.com/Rasime-Dumlupunar/react-native-mytasks/blob/main/mytask.gif)
+![](https://github.com/Rasime-Dumlupunar/react-native-mytasks/blob/main/mytask.gif)
