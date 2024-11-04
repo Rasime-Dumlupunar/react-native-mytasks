@@ -1,79 +1,57 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# My Tasks
 
-# Getting Started
+My Tasks is a task management app built with React Native, designed to help users efficiently manage their tasks. This app allows users to categorize tasks as **ongoing**, **pending**, **completed**, or **canceled** and provides features for task creation, editing, starting, completing, and deleting. Each task includes essential details such as title, description, start date, end date, and category.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Features
 
-## Step 1: Start the Metro Server
+- **Task Management**: Create, edit, delete, start, and complete tasks.
+- **Task Status**: Tasks can be marked as ongoing, pending, completed, or canceled.
+- **Task Details**: Each task includes a title, description, start date, end date, and category.
+- **Persistent Storage**: Data is stored locally using Async Storage.
+- **Navigation**: Smooth navigation between screens.
+- **Form Validation**: Forms are validated using Formik and Yup.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Libraries and Dependencies
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **@eva-design/eva**: Provides a customizable design system.
+- **@react-native-async-storage/async-storage**: For persistent local storage of task data.
+- **@react-navigation/native** & **@react-navigation/native-stack**: Enables stack-based navigation within the app.
+- **@ui-kitten/components**: UI components library for elegant and flexible design.
+- **formik**: For form management and validation.
+- **iconsax-react-native**: For using icons within the app.
+- **moment**: For handling date and time formatting.
+- **react-native-safe-area-context**: For managing safe area boundaries on iOS.
+- **react-native-screens**: For improved navigation performance.
+- **react-native-svg**: Enables SVG support in the app.
+- **react-native-uuid**: For generating unique identifiers for tasks.
+- **yup**: For schema validation, used alongside Formik.
 
-```bash
-# using npm
-npm start
 
-# OR using Yarn
-yarn start
-```
+# My Tasks
 
-## Step 2: Start your Application
+**My Tasks**, kullanıcıların görevlerini etkili bir şekilde yönetmesine yardımcı olmak için React Native ile geliştirilmiş bir görev yönetim uygulamasıdır. Bu uygulama, görevlerin **devam eden**, **beklemede**, **tamamlanan** veya **iptal edilen** olarak kategorize edilmesine olanak tanır. Ayrıca görev oluşturma, düzenleme, başlatma, tamamlama ve silme özellikleri de sunar. Her görev; başlık, açıklama, başlama tarihi, bitiş tarihi ve kategori gibi temel detayları içerir.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## Özellikler
 
-### For Android
+- **Görev Yönetimi**: Görev oluşturma, düzenleme, silme, başlatma ve tamamlama işlemleri.
+- **Görev Durumu**: Görevler, devam eden, beklemede, tamamlanan veya iptal edilen olarak işaretlenebilir.
+- **Görev Detayları**: Her görev; başlık, açıklama, başlama tarihi, bitiş tarihi ve kategori içerir.
+- **Kalıcı Depolama**: Veriler, Async Storage ile yerel olarak depolanır.
+- **Navigasyon**: Ekranlar arasında sorunsuz geçiş.
+- **Form Doğrulama**: Formlar, Formik ve Yup kullanılarak doğrulanır.
 
-```bash
-# using npm
-npm run android
+## Kütüphaneler ve Bağımlılıklar
 
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- **@eva-design/eva**: Özelleştirilebilir bir tasarım sistemi sağlar.
+- **@react-native-async-storage/async-storage**: Görev verilerinin kalıcı olarak yerel depolanması için.
+- **@react-navigation/native** ve **@react-navigation/native-stack**: Uygulama içinde yığın tabanlı navigasyon sağlar.
+- **@ui-kitten/components**: Şık ve esnek bir tasarım için UI bileşenleri kütüphanesi.
+- **formik**: Form yönetimi ve doğrulama için.
+- **iconsax-react-native**: Uygulama içinde ikon kullanımı sağlar.
+- **moment**: Tarih ve saat formatlama için.
+- **react-native-safe-area-context**: iOS'ta güvenli alan sınırlarını yönetmek için.
+- **react-native-screens**: Navigasyon performansını iyileştirir.
+- **react-native-svg**: Uygulamada SVG desteği sağlar.
+- **react-native-uuid**: Görevler için benzersiz kimlikler oluşturur.
+- **yup**: Formik ile birlikte kullanılan şema doğrulama kütüphanesi.
+# react-native-mytasks
