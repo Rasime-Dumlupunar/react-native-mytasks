@@ -54,4 +54,6 @@ My Tasks is a task management app built with React Native, designed to help user
 - **react-native-svg**: Uygulamada SVG desteği sağlar.
 - **react-native-uuid**: Görevler için benzersiz kimlikler oluşturur.
 - **yup**: Formik ile birlikte kullanılan şema doğrulama kütüphanesi.
-# react-native-mytasks
+
+
+! [](https://github.com/Rasime-Dumlupunar/react-native-mytasks/blob/main/mytask.gif)
